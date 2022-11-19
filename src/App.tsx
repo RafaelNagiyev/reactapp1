@@ -1,15 +1,15 @@
 
 import './App.scss';
-import { Footer } from './Footer/Footer';
+import { Footer } from './pages/Footer/Footer';
 import { Header } from './pages/Header/Header';
-import { HomePage } from './pages/HomePage/HomePage';
+import { HeroBlock } from './pages/HomePage/Hero/HeroBlock';
 
 function App() {
   return (
     <div className="App">
         <Header />
       <main>
-        <HomePage />
+        <HeroBlock />
       </main>
         <Footer />
     </div>
