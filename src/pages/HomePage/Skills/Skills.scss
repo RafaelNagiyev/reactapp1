@@ -1,0 +1,60 @@
+.skl-txt {
+    text-align: center;
+  }
+  
+  .txt_1 {
+    font-family: "Gilroy-Bold";
+    font-size: 34px;
+  }
+  
+  .txt_2 {
+    font-family: "Gilroy-Medium";
+    font-size: 18px;
+  }
+  
+  .skills {
+    margin: 0px auto 110px auto;
+    max-width: 940px;
+  }
+  
+  .icons {
+    margin-top: 83px;
+    font-family: "Gilroy-Bold";
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .skpic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .stars {
+    display: flex;
+    gap: 10px;
+  }
+  .skpic p {
+    text-align: center;
+    color: #828282;
+    margin: 0px;
+    padding: 24px 0px 40px 0px;
+  }
+
+  @media (max-width: 660px) {
+    .icons {
+        gap: 85px;
+        flex-direction: column;
+    }
+
+    .icon {
+        display: flex !important;
+        right: 0;
+        top: 0;
+        position: absolute;
+        margin-right: 30px;
+        margin-top: 8px;
+    }
+}
